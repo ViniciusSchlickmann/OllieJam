@@ -1,0 +1,106 @@
+*{
+	margin-bottom: 0px;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	font-family: 'Calibri', sans-serif;
+}
+
+.frete{
+	background-color: #3C241E;
+	color: #ffffff;
+	font-style: italic;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 32px;
+	font-size: 12px;
+}
+
+.menu{
+	height: 88px;
+	background-color: #1A1823;
+	color: #ffffff;
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-style: italic;
+	font-size: 18px;
+}
+
+.menu a{
+	text-decoration: none;
+	color: white;
+}
+
+.menu li{
+	padding-right: 80px;
+}
+
+.logo{
+	height: 80px;
+	position: absolute;
+	margin-left: 0px;
+}
+
+.skate, .basquete{
+	width: 100%;
+}
+
+.produtos{
+	height: 543px;
+	align-content: center;
+	display: flex;
+}
+
+.item{
+	width: 23%;
+	height: 463px;
+	margin-top: 40px;
+	margin-left: 1%;
+	margin-right: 1%;
+	background-color: white;
+	border-radius: 10px;
+	border-width: 2px;
+	border-style: solid;
+	border-color: #bebebe;
+}
+
+.item img{
+	height: 70%;
+}
+
+.item h6{
+	color: #FF8A00;
+}
+
+.item h1, h2, h5, h6{
+	margin-left: 10%;
+}
+
+.rodape{
+	height: 50px;
+	font-size: 16px;
+	background-color: #3C241E;
+	color: #ffffff;
+	font-style: italic;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.redes{
+	height: 70px;
+	background-color: #3C241E;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.redes img{
+	height: 60%;
+	padding-right: 1%;
+	padding-left: 1%;
+	margin-top: 1%;
+}
